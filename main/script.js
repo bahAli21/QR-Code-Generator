@@ -17,10 +17,11 @@ downloadBtn.addEventListener('click', ()=>{
     if(img !== null){
         let imgAtrr = img.getAttribute('src');
         downloadBtn.setAttribute("href", imgAtrr);
+
+        downloadBtn.setAttribute("download", "QR_Code_img.png");
     }
     else{
         alert("Vous devez generer le QR CODE avant , Merci !")
-        //downloadBtn.setAttribute("href", `${document.querySelector('canvas').toDataURL()}`);
     }
 });
 

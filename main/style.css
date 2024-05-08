@@ -27,6 +27,7 @@ body .container{
 }
 
 .container header{
+    background-color: var(--second-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
