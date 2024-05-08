@@ -11,6 +11,8 @@ Une application web simple pour générer des QR codes en fonction des URL saisi
 
 ## Comment utiliser
 
+[Cliquez ici pour visiter le générateur de QR Code](https://bahali21.github.io/QR-Code-Generator/)
+
 1. Clonez le dépôt sur votre machine locale :
 
 ```bash
